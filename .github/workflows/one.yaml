@@ -12,3 +12,5 @@ jobs:
       run: |
         echo "repo variable : ${{ vars.REPO_VAR }}"
         echo "env variable : ${{ vars.ENV_VAR }}"
+        echo "org variable : ${{ vars.ORG_VAR }}"
+        
